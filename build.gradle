@@ -25,7 +25,10 @@ repositories {
 
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter')
+	compile("org.springframework.boot:spring-boot-starter-web")
+	compile('org.springframework.boot:spring-boot-starter-data-jpa')
 	compile('org.springframework.security:spring-security-web')
-	compile('org.springframework.security:spring-security-config')
+	compile('org.springframework.security:spring-security-configuration')
+	compile("mysql:mysql-connector-java:5.1.36")
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
